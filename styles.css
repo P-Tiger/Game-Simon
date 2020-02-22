@@ -37,7 +37,7 @@ body {
     text-align: center;
     font-size: 70px;
     text-decoration: none;
-    color: #db21f3;
+    color: #ff9812;
     overflow: hidden;
     transition: 0.2s;
     cursor: pointer;
@@ -45,8 +45,8 @@ body {
 
 #startgame:hover {
     color: #255784;
-    background: #db21f3;
-    box-shadow: 0 0 10px #db21f3, 0 0 40px #db21f3, 0 0 80px #db21f3;
+    background: #ff9812;
+    box-shadow: 0 0 10px #ff9812, 0 0 40px #ff9812, 0 0 80px #ff9812;
 }
 
 .green:hover {
