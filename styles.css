@@ -1,105 +1,115 @@
-body {
-    text-align: center;
-    background-color: #011F3F;
-}
-
-#level-title {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    margin: 5%;
-    color: #FEF2BF;
-}
-
-#title-Game {
-    font-size: 4rem;
-}
-
-.container {
-    display: block;
-    width: 70%;
-    margin: auto;
-}
-
-.btn {
-    margin: 25px;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    border: 10px solid black;
-    border-radius: 20%;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-#startgame {
-    margin: 25px;
-    text-align: center;
-    font-size: 70px;
-    text-decoration: none;
-    color: #ff9812;
-    overflow: hidden;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-#startgame:hover {
-    color: #255784;
-    background: #ff9812;
-    box-shadow: 0 0 10px #ff9812, 0 0 40px #ff9812, 0 0 80px #ff9812;
-}
-
-.green:hover {
-    box-shadow: 0 0 10px #12ff1e, 0 0 40px #12ff1e, 0 0 100px #12ff1e;
-}
-
-.red:hover {
-    box-shadow: 0 0 10px #fa3512, 0 0 40px #fa3512, 0 0 100px #fa3512;
-}
-
-.blue:hover {
-    box-shadow: 0 0 10px #1281ff, 0 0 40px #1281ff, 0 0 100px #1281ff;
-}
-
-.yellow:hover {
-    box-shadow: 0 0 10px #fbff12, 0 0 40px #fbff12, 0 0 80px #fbff12;
-}
-
-.game-over {
-    background-color: red;
-    opacity: 0.8;
-}
-
-.red {
-    background-color: red;
-}
-
-.green {
-    background-color: green;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-@media only screen and (max-width: 1080px) {
+    body {
+        text-align: center;
+        background-color: #011F3F;
+    }
+    
+    #level-title {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 3rem;
+        margin: 5%;
+        color: #FEF2BF;
+    }
+    
     .container {
         display: block;
-        width: 100%;
+        width: 70%;
         margin: auto;
     }
+    
     .btn {
         margin: 25px;
         display: inline-block;
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
         border: 10px solid black;
         border-radius: 20%;
         overflow: hidden;
         transition: 0.2s;
+        cursor: pointer;
     }
-}
+    
+    #startgame {
+        margin: 25px;
+        text-align: center;
+        font-size: 3rem;
+        text-decoration: none;
+        color: #ff9812;
+        overflow: hidden;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+    
+    #startgame:hover {
+        color: #255784;
+        background: #ff9812;
+        box-shadow: 0 0 10px #ff9812, 0 0 40px #ff9812, 0 0 80px #ff9812;
+    }
+    
+    .green:hover {
+        box-shadow: 0 0 10px #12ff1e, 0 0 40px #12ff1e, 0 0 100px #12ff1e;
+    }
+    
+    .red:hover {
+        box-shadow: 0 0 10px #fa3512, 0 0 40px #fa3512, 0 0 100px #fa3512;
+    }
+    
+    .blue:hover {
+        box-shadow: 0 0 10px #1281ff, 0 0 40px #1281ff, 0 0 100px #1281ff;
+    }
+    
+    .yellow:hover {
+        box-shadow: 0 0 10px #fbff12, 0 0 40px #fbff12, 0 0 80px #fbff12;
+    }
+    
+    .game-over {
+        background-color: red;
+        opacity: 0.8;
+    }
+    
+    .red {
+        background-color: red;
+    }
+    
+    .green {
+        background-color: green;
+    }
+    
+    .blue {
+        background-color: blue;
+    }
+    
+    .yellow {
+        background-color: yellow;
+    }
+    
+    @media only screen and (max-width: 1080px) {
+        .container {
+            display: block;
+            width: 100%;
+            margin: auto;
+        }
+        .btn {
+            margin: 25px;
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            border: 10px solid black;
+            border-radius: 20%;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+        #level-title,
+        #startgame {
+            font-size: 2rem;
+        }
+    }
+    
+    @media only screen and (max-width: 360px) {
+        .container {
+            width: 100%;
+        }
+        .btn {
+            height: 60px;
+            width: 60px;
+        }
+    }
