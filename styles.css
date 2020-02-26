@@ -22,7 +22,7 @@
         height: 200px;
         width: 200px;
         border: 10px solid black;
-        border-radius: 20%;
+        border-radius: 30%;
         overflow: hidden;
         transition: 0.2s;
         cursor: pointer;

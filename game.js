@@ -8,7 +8,7 @@ var level = 0;
 $('#startgame').click(function() {
     if (!started) {
         $("#level-title").text("Level " + level);
-        nextSequence();
+        nextSequence(); // start game 
         started = true;
     }
 });
@@ -22,6 +22,7 @@ $(".btn").click(function() {
 
 function checkAnswer(currentLevel) {
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
+
         if (userClickedPattern.length === gamePattern.length) {
             setTimeout(function() {
                 nextSequence();
